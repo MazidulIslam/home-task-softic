@@ -4,21 +4,14 @@ import store from "./redux/store";
 
 import PostsContainer from "./components/PostsContainer";
 
-
-
 function App() {
   return (
     <Provider store={store}>
       <div className="App">
         <PostsContainer />
-        <h1>End of Posts</h1>
+        <h1><b>End of Posts</b></h1>
       </div>
     </Provider>
   );
 }
-
-
-
-
-
 export default App;

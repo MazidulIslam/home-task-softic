@@ -28,7 +28,7 @@ setModalData(post);
     <h2>{postsData.error}</h2>
   ) : (
     <div>
-      <h2><b>Posts</b></h2>
+      <h1><b>Total Posts {postsData?postsData.posts.length:0}</b></h1>
       
           
       <div class="grid grid-cols-1 gap-2 d-flex p-2">
