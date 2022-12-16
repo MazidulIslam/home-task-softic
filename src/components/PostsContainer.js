@@ -26,10 +26,32 @@ const PostsContainer = ({ postsData, fetchPosts,deletePosts }) => {
           postsData.posts &&
           postsData.posts.map((post) => 
           <div class="border-2 border-green-600 p-3">
-            <h>Title: {post.title} 
-            <span class="pl-2"><button class="border-2 border-rose-600 p-1"
+            <div>
+              <h class="text-lg font-semibold hover:font-bold">Title: {post.title} </h>
+            
+
+            
+            {/* <span class="pl-2">
+              <button class="border-2 border-rose-600 p-1"
           onClick={()=>{deletePosts(post.id)}}
-          >Delete</button></span></h>
+          >Delete</button></span> */}
+            </div>
+            <hr/>
+            <div>
+              <p><strong>Post Description:</strong> {post.body}</p>
+            </div>
+            <hr/>
+            <div>
+              <h4>Comments!</h4>
+              {post.allComments.map((comment)=>{
+             
+                <ul class="list-outside ...">
+  <li>{comment.body}</li>
+
+</ul>
+              })}
+            </div>
+            
           </div>
 )} 
           </div>
