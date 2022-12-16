@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/home-task-softic/static/css/main.073c9b0a.css",
-    "main.js": "/home-task-softic/static/js/main.523f340c.js",
+    "main.js": "/home-task-softic/static/js/main.b70dcd4a.js",
     "static/js/787.9a71af19.chunk.js": "/home-task-softic/static/js/787.9a71af19.chunk.js",
     "index.html": "/home-task-softic/index.html",
     "main.073c9b0a.css.map": "/home-task-softic/static/css/main.073c9b0a.css.map",
-    "main.523f340c.js.map": "/home-task-softic/static/js/main.523f340c.js.map",
+    "main.b70dcd4a.js.map": "/home-task-softic/static/js/main.b70dcd4a.js.map",
     "787.9a71af19.chunk.js.map": "/home-task-softic/static/js/787.9a71af19.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.523f340c.js"
+    "static/js/main.b70dcd4a.js"
   ]
 }
